@@ -1,0 +1,326 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header .morel{
+    display: none;
+}
+
+header {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 70px;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 5vw;
+}
+
+
+.portrait{
+    display: none;
+}
+
+.logo h1 {
+    font-size: 1.5em;
+}
+
+
+
+.nav a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.3em;
+    color: black;
+}
+
+.nav a:hover {
+    color: rgb(241, 7, 230);
+}
+
+.search {
+    font-size: 1.5em;
+}
+
+.more {
+    font-size: 1.5em;
+    display: none;
+}
+
+
+.intro {
+    /* background-color: aqua; */
+    background-size: 100%;
+    width: 100%;
+    height: 90vh;
+    margin-top: -32px;
+
+}
+
+.intro img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* top: 70px; */
+    z-index: -1;
+}
+
+.intro .opacity {
+    background-color: black;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 70px;
+    opacity: .5;
+
+}
+
+.line {
+    background: rgb(34, 45, 195);
+    background: linear-gradient(0deg, rgba(34, 45, 195, 1) 0%, rgba(236, 71, 71, 1) 50%, rgba(255, 209, 0, 1) 100%);
+    height: 240px;
+    width: 7px;
+    position: absolute;
+    top: 240px;
+    left: 180px;
+    border-radius: 50px;
+    z-index: 10;
+}
+
+.introduction {
+    /* background-color: aqua; */
+    width: 60vw;
+    position: relative;
+    top: 150px;
+    left: 200px;
+    z-index: 10;
+}
+
+.introduction h3 {
+    font-size: 2em;
+    position: relative;
+    top: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.introduction h1 {
+    font-size: 3em;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.introduction p {
+    font-size: 1.3em;
+    position: relative;
+    bottom: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.introduction button {
+    width: 170px;
+    height: 45px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(7, 212, 178);
+    position: relative;
+    bottom: 30px;
+    font-family: Verdana, sans-serif;
+}
+
+.introduction button:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+
+}
+
+
+
+.facilities {
+    background: rgb(56, 67, 227);
+    background: linear-gradient(0deg, rgba(56, 67, 227, 1) 0%, rgba(217, 6, 31, 1) 49%, rgba(255, 209, 0, 1) 100%);
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: relative; */
+}
+
+.facility {
+    /* background-color: brown; */
+    width: 25vw;
+    height: 70%;
+
+}
+
+.fheading {
+    display: flex;
+    align-items: center;
+
+}
+
+.f1 span {
+    font-size: 2em;
+
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+}
+
+.f1 h2 {
+    color: white;
+    padding-left: 25px;
+    font-size: 27px;
+}
+
+.f1 p {
+    color: white;
+    padding-left: 20px;
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+.about {
+    /* background-color: aqua; */
+    width: 100%;
+    position: relative;
+    /* bottom: 33px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.aboutus {
+    /* background-color: brown; */
+    width: 50%;
+    /* position: relative;
+    top: 20px; */
+    /* left: 100px; */
+}
+
+.aboutus h2 {
+    font-size: 2.5em;
+}
+
+.aboutus .abline {
+    background: rgb(56, 107, 181);
+    background: linear-gradient(90deg, rgba(56, 107, 181, 1) 0%, rgba(230, 86, 161, 1) 60%, rgba(108, 255, 0, 1) 100%);
+    width: 5vw;
+    height: 4px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 30px;
+}
+
+.aboutus h3 {
+    font-size: 1.7em;
+    position: relative;
+    bottom: 40px;
+    font-family: arial Tahoma, sans-serif;
+}
+
+.aboutus p {
+    font-size: 1em;
+    position: relative;
+    bottom: 40px;
+    font-family: Tahoma;
+}
+
+.border {
+
+    border: 10px solid rgb(255, 60, 0);
+
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    bottom: 42px;
+    right: 65px;
+    z-index: -2;
+}
+
+
+
+/* .services{
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+} */
+
+.service {
+    width: 100%;
+    height: 250px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.service .s1 img {
+
+    width: 300px;
+
+}
+
+.s1 {
+    /* background-color: aqua; */
+    width: 300px;
+    height: auto;
+}
+
+.s1 span {
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.3em;
+    border-radius: 5px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0;
+
+}
+
+.services h2 {
+    font-size: 2.2em;
+    margin-left: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.sline {
+    background: rgb(56, 107, 181);
+    background: linear-gradient(90deg, rgba(56, 107, 181, 1) 0%, rgba(230, 86, 161, 1) 60%, rgba(108, 255, 0, 1) 100%);
+    width: 7vw;
+    height: 4px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 20px;
+    left: 80px;
+}
